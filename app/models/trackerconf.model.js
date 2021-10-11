@@ -3,9 +3,6 @@ module.exports = (sequelize, Sequelize) => {
     tracktime: {
       type: Sequelize.STRING
     },
-    description: {
-      type: Sequelize.STRING
-    },
     published: {
       type: Sequelize.BOOLEAN
     }
